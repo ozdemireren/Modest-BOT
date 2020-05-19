@@ -32,8 +32,8 @@ const spamCheck = () => {
        break;
 
        case "/time":
-          let rahat = (new Date()+ Date.getTime); //
-          reply(rahat);
+          let zaman  = new Date();
+          reply(zaman.toLocaleString());
        break;
 
         case "/spin":
