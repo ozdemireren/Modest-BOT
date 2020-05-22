@@ -27,7 +27,7 @@ const spamCheck = () => {
   
     switch (mesaj) {
        case "/help":
-          let yardim = ("/spin: Allows you to spin the roulette\n/time: Shows date and time\n/slot: Allows you to spin the Slot Machine");
+          let yardim = ("**/spin**: Allows you to spin the roulette\n**/time**: Shows date and time\n**/slot**: Allows you to spin the Slot Machine");
           reply(yardim);
        break;
 
@@ -48,7 +48,7 @@ const spamCheck = () => {
           const bosluk = (" ");
           const masal = (`<@${message.author.id}> Spun the slot machine and got these numbers: `);
           if(sayı1 === sayı2 && sayı2 === sayı3){
-          let beep = (masal + bosluk + sayı1 + bosluk + sayı2 + bosluk + sayı3 + bosluk + `\n<@${message.author.id}> `+ "Won at the slots!");
+          let beep = (masal + bosluk + sayı1 + bosluk + sayı2 + bosluk + sayı3 + bosluk + `\n<@${message.author.id}> `+ "**Won** at the slots!");
           reply(beep);
           } else {
           let beep = (masal + bosluk + sayı1 + bosluk + sayı2 + bosluk + sayı3 + bosluk + `\n<@${message.author.id}> `+ "Lost at the slots!");
