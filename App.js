@@ -46,7 +46,7 @@ const spamCheck = () => {
           const sayı2 = (Math.floor(Math.random()* 4));
           const sayı3 = (Math.floor(Math.random()* 4));
           const bosluk = (" ");
-          const masal = (`<@${message.author.id}> **Spun the slot machine and got these numbers :**`);
+          const masal = (`<@${message.author.id}> **Spun the slot machine and got these numbers:**`);
           if(sayı1 === sayı2 && sayı2 === sayı3){
           let beep = (masal + bosluk + sayı1 + bosluk + sayı2 + bosluk + sayı3 + bosluk + `\n<@${message.author.id}> `+ "**Won** at the slots!");
           reply(beep);
@@ -58,7 +58,7 @@ const spamCheck = () => {
         case "/rosh":
           let kelimes = ['Rock', 'Paper', 'Scissors'];
           let secler = kelimes[Math.floor(Math.random() * kelimes.length)];
-          let esonuc = (`<@${message.author.id}> **Used his skills and made this hand gesture :** ` + secler);
+          let esonuc = (`<@${message.author.id}> **Used his skills and made this hand gesture:** ` + secler);
           reply(esonuc);
         break;
 
