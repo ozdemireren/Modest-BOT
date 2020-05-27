@@ -27,7 +27,7 @@ const spamCheck = () => {
   
     switch (mesaj) {
        case "/help":
-          let yardim = ("**/spin:** Allows you to spin the roulette\n**/time:** Shows date and time\n**/slot:** Allows you to spin the Slot Machine\n**/rosh:** Allows you to play roshambo game");
+          let yardim = ("**/spin:** Allows you to spin the roulette\n**/time:** Shows date and time\n**/slot:** Allows you to spin the slot machine\n**/rosh:** Allows you to play roshambo game");
           reply(yardim);
        break;
 
