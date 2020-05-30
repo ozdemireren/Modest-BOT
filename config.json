@@ -1,0 +1,10 @@
+{
+    "token":"NzExMDc0ODQxMzk0MTUxNDY0.XsLs-g.46HCIXp_lcscqddkb46tczvSmgw",
+    "help":[
+        "**/spin:** Allows you to spin the roulette",
+        "**/time:** Shows date and time",
+        "**/slot:** Allows you to spin the slot machine",
+        "**/rosh:** Allows you to play roshambo game",
+        "**/dice:** Allows you to roll the dice"
+    ]
+}

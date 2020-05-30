@@ -1,6 +1,6 @@
 const Discord = require("discord.js");
 const bot = new Discord.Client();
-const token = "NzExMDc0ODQxMzk0MTUxNDY0.XsLs-g.46HCIXp_lcscqddkb46tczvSmgw";
+const config = require("./config.json");
 const spam = new Set();
 
 
@@ -12,6 +12,11 @@ bot.on("message", (message) => {
 if (message.author.bot) return;
 const mesaj = message.content;
 const reply = c => message.channel.send(c);
+
+function cerceve(title, description, color){
+  let frame = new Discord.MessageEmbed().setTitle(title).setDescription(description).setColor(color);
+  reply(frame);
+}
 
 const spamCheck = () => {
     spam.add(message.author.id);
@@ -27,18 +32,17 @@ const spamCheck = () => {
   
     switch (mesaj) {
        case "/help":
-          let yardim = ("**/spin:** Allows you to spin the roulette\n**/time:** Shows date and time\n**/slot:** Allows you to spin the slot machine\n**/rosh:** Allows you to play roshambo game\n**/dice:** Allows you to roll the dice");
-          reply(yardim);
+         cerceve(":question: **__Commands:__**", config.help.join("\n"), "#FF008B"); 
        break;
 
        case "/time":
-          let zaman  = new Date();
-          reply(zaman.toLocaleString());
+         let zaman  = new Date();
+         cerceve(":clock1: **__Time:__**", zaman, "#41B619");
        break;
 
         case "/spin":
           let rulet = (`<@${message.author.id}> ` + "**Spun at the wheel and got number** " + Math.floor(Math.random() * 37)); //
-          reply(rulet);
+          cerceve(":red_circle: **__Roulette Wheel:__**", rulet, "#F85C50");
         break;
         
         case "/slot":
@@ -49,23 +53,23 @@ const spamCheck = () => {
           const masal = (`<@${message.author.id}> **Spun the slot machine and got these numbers:**`);
           if(sayı1 === sayı2 && sayı2 === sayı3){
           let beep = (masal + bosluk + sayı1 + bosluk + sayı2 + bosluk + sayı3 + bosluk + `\n<@${message.author.id}> `+ "**Won** at the slots!");
-          reply(beep);
+          cerceve(":slot_machine: **__Slot Machine:__**", beep, "#70E852");
           } else {
           let beep = (masal + bosluk + sayı1 + bosluk + sayı2 + bosluk + sayı3 + bosluk + `\n<@${message.author.id}> `+ "Lost at the slots!");
-          reply(beep);}
+          cerceve(":slot_machine: **__Slot Machine:__**", beep, "#E20338");}
         break;
 
         case "/rosh":
           let kelimes = ['Rock', 'Paper', 'Scissors'];
           let secler = kelimes[Math.floor(Math.random() * kelimes.length)];
           let esonuc = (`<@${message.author.id}> **Used his skills and made this hand gesture:** ` + secler);
-          reply(esonuc);
+          cerceve(":scissors: **__Roshambo Game:__**", esonuc, "#17F1D7");
         break;
 
         case "/dice":
           let dicesayi = (Math.floor(Math.random() * (7 - 1) ) + 1);
           let dices = (`<@${message.author.id}> **Rolled the dice and this number came:** ` + dicesayi);
-          reply(dices);
+          cerceve(":game_die: **__Dice:__**", dices, "#A7E541");
         break;
 
 
@@ -77,4 +81,4 @@ const spamCheck = () => {
  });
 
 
-bot.login(token);
+bot.login(config.token);
