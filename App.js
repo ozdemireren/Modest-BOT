@@ -27,7 +27,7 @@ const spamCheck = () => {
   
     switch (mesaj) {
        case "/help":
-          let yardim = ("**/spin:** Allows you to spin the roulette\n**/time:** Shows date and time\n**/slot:** Allows you to spin the slot machine\n**/rosh:** Allows you to play roshambo game");
+          let yardim = ("**/spin:** Allows you to spin the roulette\n**/time:** Shows date and time\n**/slot:** Allows you to spin the slot machine\n**/rosh:** Allows you to play roshambo game\n**/dice:** Allows you to roll the dice");
           reply(yardim);
        break;
 
@@ -37,7 +37,7 @@ const spamCheck = () => {
        break;
 
         case "/spin":
-          let rulet = (`<@${message.author.id}> ` + "**Spun at the wheel and got number** "+ Math.floor(Math.random() * 37)); //
+          let rulet = (`<@${message.author.id}> ` + "**Spun at the wheel and got number** " + Math.floor(Math.random() * 37)); //
           reply(rulet);
         break;
         
@@ -60,6 +60,12 @@ const spamCheck = () => {
           let secler = kelimes[Math.floor(Math.random() * kelimes.length)];
           let esonuc = (`<@${message.author.id}> **Used his skills and made this hand gesture:** ` + secler);
           reply(esonuc);
+        break;
+
+        case "/dice":
+          let dicesayi = (Math.floor(Math.random() * (7 - 1) ) + 1);
+          let dices = (`<@${message.author.id}> **Rolled the dice and this number came:** ` + dicesayi);
+          reply(dices);
         break;
 
 
