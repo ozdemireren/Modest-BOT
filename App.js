@@ -80,6 +80,9 @@ const spamCheck = () => {
           cerceve(":angel: **__Legendary Wings Quests:__**", config.ltitle.join("\n"), "#A7E541");
         break;
 
+        case "/ldrag":
+          cerceve(":dragon: **__Dragon of Legend Quests__**", config.ldrag.join("\n"), "#A7E541");
+
 
        default:
        break;
