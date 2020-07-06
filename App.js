@@ -69,7 +69,15 @@ const spamCheck = () => {
         case "/dice":
           let dicesayi = (Math.floor(Math.random() * (7 - 1) ) + 1);
           let dices = (`<@${message.author.id}> **Rolled the dice and this number came:** ` + dicesayi);
-          cerceve(":game_die: **__Dice:__**", dices, "#A7E541");
+          cerceve(":game_die: **__Dice:__**", dices, "#2D1457");
+        break;
+
+        case "/legendquest":
+          cerceve(":woman_mage: **__Legend Quests:__**", config.legendquest.join("\n"), "#CA1A8E");
+        break;
+
+        case "/ltitle":
+          cerceve(":angel: **__Legendary Wings Quests:__**", config.ltitle.join("\n"), "#A7E541");
         break;
 
 

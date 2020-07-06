@@ -5,6 +5,41 @@
         "**/time:** Shows date and time",
         "**/slot:** Allows you to spin the slot machine",
         "**/rosh:** Allows you to play roshambo game",
-        "**/dice:** Allows you to roll the dice"
+        "**/dice:** Allows you to roll the dice",
+        "**/legendquest:** Shows Legendary Quests,"
+    ],
+    "legendquest":[
+        "**/ltitle:** Shows Legendary Title Quests",
+        "**/ldrag:** Shows Dragon of Legend Quests",
+        "**/lbot:** Shows LegendBot-009 Quests",
+        "**/lwings:** Shows Legendary Wings Quests",
+        "**/lkatana:** Shows Legendary Katana Quests",
+        "**/lwhip:** Shows Whip of Truth Quests",
+        "**/lknight:** Shows Legendary Dragon Knight's Wings Quests"
+    ],
+    "ltitle":[
+        "**1.** Bring 2,000 Sand",
+        "**2.** Kill 100 players in PvP via a Game Generator",
+        "**3.** Break 5,000 Blocks",
+        "**4.** Bring 600 Display Boxes",
+        "**5.** Plant seeds that add up to 50,000 rarities",
+        "**6.** Earn 50 Growtokens",
+        "**7.** Bring 3 Golden Diapers",
+        "**8.** Earn 10,000 XP",
+        "**9.** Bring 1,000 Tombstones",
+        "**10.** Deliver 100,000 gems",
+        "**11.** Break 100,000 rarity worth of blocks",
+        "**12.** Complete 100 successful surgeries",
+        "**13.** Collect from 1,000 providers",
+        "**14.** Bring 3 Golden Heart Crystals",
+        "**15.** Collect 100,000 rarity worth of fruit from trees",
+        "**16.** Bring a Growie Award",
+        "**17.** Bring 3 Super Fireworks",
+        "**18.** Bring 10 pairs of Rainbow Wings",
+        "**19.** Bring 3 Birth Certificates",
+        "**20.** Deliver the Legendary Orb"
     ]
+    
+     
+
 }
