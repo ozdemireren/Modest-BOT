@@ -73,15 +73,24 @@ const spamCheck = () => {
         break;
 
         case "/legendquest":
-          cerceve(":woman_mage: **__Legend Quests:__**", config.legendquest.join("\n"), "#CA1A8E");
+          cerceve(":woman_mage: **__Legend Quests__**", config.legendquest.join("\n"), "#CA1A8E");
         break;
 
         case "/ltitle":
-          cerceve(":angel: **__Legendary Wings Quests:__**", config.ltitle.join("\n"), "#A7E541");
+          cerceve(":angel: **__Legendary Title Quests__**", config.ltitle.join("\n"), "#A7E541");
         break;
 
         case "/ldrag":
           cerceve(":dragon: **__Dragon of Legend Quests__**", config.ldrag.join("\n"), "#A7E541");
+        break;
+
+        case "/lbot":
+          cerceve(":robot: **__Legendbot-009 Quests__**", config.lbot.join("\n"), "A7E541");
+        break;
+
+        case "/lwings":
+          cerceve(":wind_blowing_face: **__Legendary Wings Quests__**", config.lwings.join("\n"), "A7E541");
+        break;
 
 
        default:
