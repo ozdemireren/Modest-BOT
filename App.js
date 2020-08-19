@@ -92,6 +92,18 @@ const spamCheck = () => {
           cerceve(":wind_blowing_face: **__Legendary Wings Quests__**", config.lwings.join("\n"), "A7E541");
         break;
 
+        case "/lkatana":
+          cerceve(":crossed_swords: **__Legendary Katana Quests__**", config.lkatana.join("\n"), "A7E541");
+        break;
+
+        case "/lwhip":
+          cerceve(":dizzy: **__Whip of Truth Quests__**", config.lwhip.join("\n"), "A7E541");
+        break;
+
+        case "/lknight":
+          cerceve(":maple_leaf: **__Legendary Dragon Knight's Wings Quests__**", config.lknight.join("\n"), "A7E541");
+        break;
+
 
        default:
        break;

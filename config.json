@@ -6,7 +6,7 @@
         "**/slot:** Allows you to spin the slot machine",
         "**/rosh:** Allows you to play roshambo game",
         "**/dice:** Allows you to roll the dice",
-        "**/legendquest:** Shows Legendary Quests,"
+        "**/legendquest:** Shows Legendary Quests"
     ],
     "legendquest":[
         "**/ltitle:** Shows Legendary Title Quests",
@@ -104,7 +104,74 @@
         "**18.** Deliver 1 Phoenix Wings or Neptune's Trident",
         "**19.** Deliver 50 Parrot Wings",
         "**20.** Deliver the Legendary Orb"
+    ],
+    "lkatana":[
+        "**1.** Deliver 1,000 Iron Bars",
+        "**2.** Kill 100 Growtopians using a Game Generator",
+        "**3.** Break 5,000 blocks",
+        "**4.** Bring 600 Golden Swords",
+        "**5.** Plant 50,000 rarity worth of seeds",
+        "**6.** Earn 50 Growtokens",
+        "**7.** Deliver 3 Heavenly Scythes",
+        "**8.** Earn 10,000 XP",
+        "**9.** Deliver 800 Headsman's Axes",
+        "**10.** Deliver 100,000 Gems",
+        "**11.** Break 100,000 rarity worth of blocks",
+        "**12.** Defeat 100 villains",
+        "**13.** Find 100 Radioactive items (via Geiger Counter)",
+        "**14.** Deliver 20 Flamesabers",
+        "**15.** Collect 100,000 rarity worth of fruit from trees",
+        "**16.** Deliver 1 Golden Apple",
+        "**17.** Deliver 10 Much-Too-Small Yellow Shirt",
+        "**18.** Deliver 20 Flame Scythes",
+        "**19.** Deliver 20 Crystal Glaives",
+        "**20.** Deliver the Legendary Orb"
+    ],
+    "lwhip":[
+        "**1.** Deliver 2,000 Secret Of Growtopias",
+        "**2.** Defeat 100 Growtopians in Games or Deathmatch Events",
+        "**3.** Break 10,000 blocks",
+        "**4.** Deliver 1,000 Mind-Ghost-In-A-Jars",
+        "**5.** Plant 100,000 rarity worth of trees",
+        "**6.** Earn 50 Growtokens",
+        "**7.** Deliver 10 Super Squirt Gun Jetpacks",
+        "**8.** Earn 20,000 XP",
+        "**9.** Deliver 5 Soul Stones",
+        "**10.** Deliver 140,000 Gems",
+        "**11.** Destroy 200,000 rarity worth of blocks",
+        "**12.** Defeat 100 Villains",
+        "**13.** Train 20 fishes",
+        "**14.** Deliver 3 Celestial Lance",
+        "**15.** Harvest 200,000 rarity of fruits from trees",
+        "**16.** Deliver 5 Ring Of Shrinkings",
+        "**17.** Deliver 3 Golden Talarias",
+        "**18.** Deliver 3 Ancestral Totem of Wisdom",
+        "**19.** Deliver 1 Summer Event Player Medal: Gold",
+        "**20.** Deliver the Legendary Orb"
+    ],
+    "lknight":[
+        "**1.** Deliver 2,000 Obsidian",
+        "**2.** Kill 100 players in Games or Deathmatch events",
+        "**3.** Destroy 10,000 blocks",
+        "**4.** Deliver 1,000 Knight Helmets",
+        "**5.** Plant 100,000 rarity worth of trees",
+        "**6.** Earn 50 Growtokens",
+        "**7.** Deliver 10 Blanket Capes",
+        "**8.** Earn 20,000 XP",
+        "**9.** Deliver 800 Blazing Electro Wings",
+        "**10.** Deliver 140,000 Gems",
+        "**11.** Destroy 200,000 rarity worth of blocks",
+        "**12.** Perform 100 successful surgeries",
+        "**13.** Train 10 fish",
+        "**14.** Deliver 10 Autumn Wings",
+        "**15.** Harvest 200,000 rarity of fruits from trees",
+        "**16.** Deliver 1 Golden Dragon Statue",
+        "**17.** Deliver 5 Chaos Dragon",
+        "**18.** Deliver 1 Draconic Wings",
+        "**19.** Deliver 10 Dragon Knight's Chestplate",
+        "**20.** Deliver 1 Legendary Orb"
     ]
+    
     
      
 
