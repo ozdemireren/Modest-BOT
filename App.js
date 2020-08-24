@@ -128,6 +128,11 @@ const spamCheck = () => {
           cerceve(":white_heart: **Prefix**", config.prefix.join("\n"), "#000000");
         break;
 
+        case "/oli6":
+          let oli = ("Olimpos 6 Seviliyorsunuz -Zaccs :hearts:");
+          cerceve("", oli, "#000000");
+        break;
+
 
 
        default:
