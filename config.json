@@ -1,12 +1,11 @@
 {
     "token":"NzExMDc0ODQxMzk0MTUxNDY0.XsLs-g.46HCIXp_lcscqddkb46tczvSmgw",
     "help":[
-        "**/spin:** Allows you to spin the roulette",
-        "**/time:** Shows date and time",
-        "**/slot:** Allows you to spin the slot machine",
-        "**/rosh:** Allows you to play roshambo game",
-        "**/dice:** Allows you to roll the dice",
-        "**/legendquest:** Shows Legendary Quests"
+        "**/growtopia:** Opens growtopia commands page",
+        "**/games:** Opens games page",
+        "**/tech:** Opens Techical Commands Page",
+        "**/rules:** Opens rules page",
+        "**/about:** About Modest..."
     ],
     "legendquest":[
         "**/ltitle:** Shows Legendary Title Quests",
@@ -170,7 +169,39 @@
         "**18.** Deliver 1 Draconic Wings",
         "**19.** Deliver 10 Dragon Knight's Chestplate",
         "**20.** Deliver 1 Legendary Orb"
+    ],
+    "growtopia":[
+        "**/legendquest:** Shows Legendary Quests"
+    ],
+    "games":[
+        "**/spin:** Allows you to spin the roulette",
+        "**/slot:** Allows you to spin the slot machine",
+        "**/rosh:** Allows you to play roshambo game",
+        "**/dice:** Allows you to roll the dice"
+    ],
+    "tech":[
+        "**/time:** Shows date and time",
+        "**/prefix:** Shows Modest's prefix"
+    ],
+    "about":[
+        "Modest was created by Eren",
+        "Copyright ©2020 All rights reserved",
+        "Modest BOT is in no way affiliated with any (?) Entertainment® or any Games"
+    ],
+    "rules":[
+        "**1.** Betting or gambling (asking players to pay for a chance to win something) is not allowed",
+        "",
+        "**2.** Be civil. Bullying, racism, excessive profanity, sexual content, and abusive behavior are not allowed",
+        "",
+        "If there is any betting or gambling, responsibility is not belongs to Modest",
+        "",
+        "Good Days, Enjoy!"
+    ],
+    "prefix":[
+        "Modest's prefix is Slash (/)"
     ]
+
+
     
     
      

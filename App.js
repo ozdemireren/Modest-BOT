@@ -32,17 +32,17 @@ const spamCheck = () => {
   
     switch (mesaj) {
        case "/help":
-         cerceve(":question: **__Commands:__**", config.help.join("\n"), "#FF008B"); 
+         cerceve(":grey_question: **Commands**", config.help.join("\n"), "#000000"); 
        break;
 
        case "/time":
          let zaman  = new Date();
-         cerceve(":clock1: **__Time:__**", zaman, "#41B619");
+         cerceve(":clock1: **Time**", zaman, "#000000");
        break;
 
         case "/spin":
           let rulet = (`<@${message.author.id}> ` + "**Spun at the wheel and got number** " + Math.floor(Math.random() * 37)); //
-          cerceve(":red_circle: **__Roulette Wheel:__**", rulet, "#F85C50");
+          cerceve(":red_circle: **Roulette Wheel**", rulet, "#000000");
         break;
         
         case "/slot":
@@ -53,56 +53,81 @@ const spamCheck = () => {
           const masal = (`<@${message.author.id}> **Spun the slot machine and got these numbers:**`);
           if(sayı1 === sayı2 && sayı2 === sayı3){
           let beep = (masal + bosluk + sayı1 + bosluk + sayı2 + bosluk + sayı3 + bosluk + `\n<@${message.author.id}> `+ "**Won** at the slots!");
-          cerceve(":slot_machine: **__Slot Machine:__**", beep, "#70E852");
+          cerceve(":slot_machine: **Slot Machine**", beep, "#5BFF62");
           } else {
           let beep = (masal + bosluk + sayı1 + bosluk + sayı2 + bosluk + sayı3 + bosluk + `\n<@${message.author.id}> `+ "Lost at the slots!");
-          cerceve(":slot_machine: **__Slot Machine:__**", beep, "#E20338");}
+          cerceve(":slot_machine: **Slot Machine**", beep, "#E20338");}
         break;
 
         case "/rosh":
           let kelimes = ['Rock', 'Paper', 'Scissors'];
           let secler = kelimes[Math.floor(Math.random() * kelimes.length)];
           let esonuc = (`<@${message.author.id}> **Used his skills and made this hand gesture:** ` + secler);
-          cerceve(":scissors: **__Roshambo Game:__**", esonuc, "#17F1D7");
+          cerceve(":scissors: **Roshambo Game**", esonuc, "#000000");
         break;
 
         case "/dice":
           let dicesayi = (Math.floor(Math.random() * (7 - 1) ) + 1);
           let dices = (`<@${message.author.id}> **Rolled the dice and this number came:** ` + dicesayi);
-          cerceve(":game_die: **__Dice:__**", dices, "#2D1457");
+          cerceve(":game_die: **Dice**", dices, "#000000");
         break;
 
         case "/legendquest":
-          cerceve(":woman_mage: **__Legend Quests__**", config.legendquest.join("\n"), "#CA1A8E");
+          cerceve(":woman_mage: **Legend Quests**", config.legendquest.join("\n"), "#000000");
         break;
 
         case "/ltitle":
-          cerceve(":angel: **__Legendary Title Quests__**", config.ltitle.join("\n"), "#A7E541");
+          cerceve(":angel: **Legendary Title Quests**", config.ltitle.join("\n"), "#000000");
         break;
 
         case "/ldrag":
-          cerceve(":dragon: **__Dragon of Legend Quests__**", config.ldrag.join("\n"), "#A7E541");
+          cerceve(":dragon: **Dragon of Legend Quests**", config.ldrag.join("\n"), "#000000");
         break;
 
         case "/lbot":
-          cerceve(":robot: **__Legendbot-009 Quests__**", config.lbot.join("\n"), "A7E541");
+          cerceve(":robot: **Legendbot-009 Quests**", config.lbot.join("\n"), "#000000");
         break;
 
         case "/lwings":
-          cerceve(":wind_blowing_face: **__Legendary Wings Quests__**", config.lwings.join("\n"), "A7E541");
+          cerceve(":wind_blowing_face: **Legendary Wings Quests**", config.lwings.join("\n"), "#000000");
         break;
 
         case "/lkatana":
-          cerceve(":crossed_swords: **__Legendary Katana Quests__**", config.lkatana.join("\n"), "A7E541");
+          cerceve(":crossed_swords: **Legendary Katana Quests**", config.lkatana.join("\n"), "#000000");
         break;
 
         case "/lwhip":
-          cerceve(":dizzy: **__Whip of Truth Quests__**", config.lwhip.join("\n"), "A7E541");
+          cerceve(":dizzy: **Whip of Truth Quests**", config.lwhip.join("\n"), "#000000");
         break;
 
         case "/lknight":
-          cerceve(":maple_leaf: **__Legendary Dragon Knight's Wings Quests__**", config.lknight.join("\n"), "A7E541");
+          cerceve(":maple_leaf: **Legendary Dragon Knight's Wings Quests**", config.lknight.join("\n"), "#000000");
         break;
+
+        case "/growtopia":
+          cerceve(":deciduous_tree: **Growtopia Page**", config.growtopia.join("\n"), "#000000");
+        break;
+
+        case "/games":
+          cerceve(":video_game: **Games Page**", config.games.join("\n"), "#000000");
+        break;
+
+        case "/tech":
+          cerceve(":wrench: **Technical Page**", config.tech.join("\n"), "#000000");
+        break;
+
+        case "/about":
+          cerceve(":registered: **About Modest**", config.about.join("\n"), "#000000");
+        break;
+
+        case "/rules":
+          cerceve(":grey_exclamation: **Rules**", config.rules.join("\n"), "#000000");
+        break;
+        
+        case "/prefix":
+          cerceve(":white_heart: **Prefix**", config.prefix.join("\n"), "#000000");
+        break;
+
 
 
        default:
