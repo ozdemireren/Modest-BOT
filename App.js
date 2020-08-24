@@ -42,7 +42,7 @@ const spamCheck = () => {
 
         case "/spin":
           let rulet = (`<@${message.author.id}> ` + "**Spun at the wheel and got number** " + Math.floor(Math.random() * 37)); //
-          cerceve(":red_circle: **Roulette Wheel**", rulet, "#000000");
+          cerceve(":white_circle: **Roulette Wheel**", rulet, "#000000");
         break;
         
         case "/slot":

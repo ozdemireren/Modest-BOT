@@ -1,9 +1,9 @@
 {
     "token":"NzExMDc0ODQxMzk0MTUxNDY0.XsLs-g.46HCIXp_lcscqddkb46tczvSmgw",
     "help":[
-        "**/growtopia:** Opens growtopia commands page",
-        "**/games:** Opens games page",
-        "**/tech:** Opens Techical Commands Page",
+        "**/games:** Opens Games page",
+        "**/tech:** Opens techical commands Page",
+        "**/growtopia:** Opens Growtopia commands page",
         "**/rules:** Opens rules page",
         "**/about:** About Modest..."
     ],
