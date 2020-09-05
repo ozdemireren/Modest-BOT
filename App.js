@@ -4,6 +4,7 @@ const config = require("./config.json");
 const spam = new Set();
 
 
+
 bot.on("ready", () => {
     console.log("Bot başlatıldı.");
     });
@@ -15,7 +16,7 @@ const reply = c => message.channel.send(c);
 
 function cerceve(title, description, color){
   let frame = new Discord.MessageEmbed().setTitle(title).setDescription(description).setColor(color);
-  reply(frame);
+  message.channel.send(frame);
 }
 
 const spamCheck = () => {
@@ -129,7 +130,7 @@ const spamCheck = () => {
         break;
 
         case "/oli6":
-          let oli = ("Olimpos 6 Seviliyorsunuz -Zaccs :hearts:");
+          let oli = ("Olimpos `6` Seviliyorsunuz -Zaccs :hearts:");
           cerceve("", oli, "#000000");
         break;
 
