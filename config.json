@@ -181,7 +181,8 @@
     ],
     "tech":[
         "**/time:** Shows date and time",
-        "**/prefix:** Shows Modest's prefix"
+        "**/invite:** Invite Modest into your server",
+        "**/balance:** Shows your balance (Not ready, soon...)"
     ],
     "about":[
         "Modest was created by Eren",
@@ -197,8 +198,10 @@
         "",
         "Good Days, Enjoy!"
     ],
-    "prefix":[
-        "Modest's prefix is Slash (/)"
+    "invite":[
+      "**To invite Modest please click link on the below:**",
+      "",
+      "[Click Here](https://discord.com/oauth2/authorize?client_id=711074841394151464&scope=bot&permissions=8)"
     ]
 
 
