@@ -146,8 +146,13 @@ const spamCheck = () => {
         break;
 
         case "oli6":
-          let oli = ("Olimpos 6 Seviliyorsunuz -Zaccs :hearts:");
-          frame("", oli, "#000000");
+          let oli = ("`Zaccs'den bir mesajınız var!`");
+          const olimpos6 = new Discord.MessageEmbed()
+          .setTitle(":heart: Olimpos 6")
+          .setDescription(oli)
+          .setColor("#000000")
+          .setImage("https://cdn.discordapp.com/attachments/757660777820979372/758832848542892052/unknown.png")
+          message.channel.send(olimpos6);
         break;
 
         case "invite":
@@ -155,7 +160,7 @@ const spamCheck = () => {
         break;
 
 
-
+        
        default:
        break;
     }
