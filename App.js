@@ -62,24 +62,29 @@ const spamCheck = () => {
         break;
         
         case "slot":
-          const sayı1 = (Math.floor(Math.random()* 4));
-          const sayı2 = (Math.floor(Math.random()* 4));
-          const sayı3 = (Math.floor(Math.random()* 4));
-          const bosluk = (" ");
-          const masal = (`<@${message.author.id}> **Spun the slot machine and got these numbers:**`);
-          if(sayı1 === sayı2 && sayı2 === sayı3){
-          let beep = (masal + bosluk + sayı1 + bosluk + sayı2 + bosluk + sayı3 + bosluk + `\n<@${message.author.id}> `+ "**Won** at the slots!");
-          frame(":slot_machine: **Slot Machine**", beep, "#5BFF62");
+          let picks = [':cherries:', ':blueberries:', ':pineapple:', ':kiwi:'];
+          let won = (`\n<@${message.author.id}> ` + "**Won** at the slots! :partying_face:");
+          let lost = (`\n<@${message.author.id}> ` + "Lost at the slots! :sob:");
+          const num1 = picks[Math.floor(Math.random() * picks.length)];
+          const num2 = picks[Math.floor(Math.random() * picks.length)];
+          const num3 = picks[Math.floor(Math.random() * picks.length)];
+          const spacex = (" ");
+          const reword = (`<@${message.author.id}> **Spun the slot machine and...**`);
+          if(num1 === num2 && num2 === num3){
+          let beep = (reword + spacex + num1 + spacex + num2 + spacex + num3);
+          frame(":slot_machine: **Slot Machine**", beep, "#FF008B");
+          frame("", won, "5BFF62");
           } else {
-          let beep = (masal + bosluk + sayı1 + bosluk + sayı2 + bosluk + sayı3 + bosluk + `\n<@${message.author.id}> `+ "Lost at the slots!");
-          frame(":slot_machine: **Slot Machine**", beep, "#E20338");}
+          let beep = (reword + spacex + num1 + spacex + num2 + spacex + num3);
+          frame(":slot_machine: **Slot Machine**", beep, "#FF008B")
+          frame("", lost, "E20338");}
         break;
 
         case "rosh":
-          let kelimes = ['Rock', 'Paper', 'Scissors'];
+          let kelimes = [':rock:', ':roll_of_paper:', ':scissors:'];
           let secler = kelimes[Math.floor(Math.random() * kelimes.length)];
           let esonuc = (`<@${message.author.id}> **Used his skills and made this hand gesture:** ` + secler);
-          frame(":scissors: **Roshambo Game**", esonuc, "#000000");
+          frame(":confetti_ball: **Roshambo Game**", esonuc, "#FF008B");
         break;
 
         case "dice":
@@ -89,7 +94,7 @@ const spamCheck = () => {
         break;
 
         case "legendquest":
-          frame(":woman_mage: **Legend Quests**", config.legendquest.join("\n"), "#000000");
+          frame(":first_place: **Legend Quests**", config.legendquest.join("\n"), "#000000");
         break;
 
         case "ltitle":

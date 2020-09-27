@@ -1,20 +1,30 @@
 {
     "token":"NzExMDc0ODQxMzk0MTUxNDY0.XsLs-g.46HCIXp_lcscqddkb46tczvSmgw",
     "help":[
-        "**/games:** Opens Games page",
-        "**/tech:** Opens techical commands Page",
-        "**/growtopia:** Opens Growtopia commands page",
-        "**/rules:** Opens rules page",
-        "**/about:** About Modest..."
+        ":white_check_mark: **Games: ** `/games: Opens Games page`",
+        "",
+        ":white_check_mark: **Tech: ** `/tech: Opens techical commands Page`",
+        "",
+        ":white_check_mark: **Rules: ** `/rules: Opens rules page`",
+        "",
+        ":white_check_mark: **About: ** `/about: About Modest...`",
+        "",
+        ":white_check_mark: **Growtopia: ** `/growtopia: Opens Growtopia Game commands page`"
     ],
     "legendquest":[
-        "**/ltitle:** Shows Legendary Title Quests",
-        "**/ldrag:** Shows Dragon of Legend Quests",
-        "**/lbot:** Shows LegendBot-009 Quests",
-        "**/lwings:** Shows Legendary Wings Quests",
-        "**/lkatana:** Shows Legendary Katana Quests",
-        "**/lwhip:** Shows Whip of Truth Quests",
-        "**/lknight:** Shows Legendary Dragon Knight's Wings Quests"
+        ":woman_mage: **Legendary Title: ** `/ltitle: Shows Legendary Title Quests`",
+        "",
+        ":woman_mage: **Dragon Of Legend: ** `/ldrag: Shows Dragon of Legend Quests`",
+        "",
+        ":woman_mage: **LegendBot-009: ** `/lbot: Shows LegendBot-009 Quests`",
+        "",
+        ":woman_mage: **Legendary Wings: ** `/lwings: Shows Legendary Wings Quests`",
+        "",
+        ":woman_mage: **Legendary Katana: ** `/lkatana: Shows Legendary Katana Quests`",
+        "",
+        ":woman_mage: **Whip of Truth: ** `/lwhip: Shows Whip of Truth Quests`",
+        "",
+        ":woman_mage: **Legendary Dragon Knight's Wings: ** `/lknight: Shows Legendary Dragon Knight's Wings Quests`"
     ],
     "ltitle":[
         "**1.** Bring 2,000 Sand",
@@ -171,7 +181,7 @@
         "**20.** Deliver 1 Legendary Orb"
     ],
     "growtopia":[
-        "**/legendquest:** Shows Legendary Quests"
+        ":woman_mage: **Legendary Quests: ** `/legendquest: Shows Legendary Quests`"
     ],
     "games":[
         "**/spin:** Allows you to spin the roulette",
