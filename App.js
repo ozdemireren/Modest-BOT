@@ -87,6 +87,11 @@ const spamCheck = () => {
           frame(":confetti_ball: **Roshambo Game**", esonuc, "#5BFF62");
           frame("", secler, "#5BFF62");
         break;
+            
+        case "kiss":
+            let user = message.mentions.cache.first();
+            message.channel.send("<@" + user.id + ">'i öptün.");
+        break;
 
         case "dice":
           let dicesayi = (Math.floor(Math.random() * (7 - 1) ) + 1);
