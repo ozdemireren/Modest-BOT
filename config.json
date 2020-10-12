@@ -1,30 +1,30 @@
 {
     "token":"NzExMDc0ODQxMzk0MTUxNDY0.XsLs-g.46HCIXp_lcscqddkb46tczvSmgw",
     "help":[
-        ":white_check_mark: **Games: ** `/games: Opens Games page`",
+        ":small_orange_diamond: **Games: ** `/games: Opens Games page`",
         "",
-        ":white_check_mark: **Tech: ** `/tech: Opens techical commands Page`",
+        ":small_orange_diamond: **Tech: ** `/tech: Opens techical commands Page`",
         "",
-        ":white_check_mark: **Rules: ** `/rules: Opens rules page`",
+        ":small_orange_diamond: **Rules: ** `/rules: Opens rules page`",
         "",
-        ":white_check_mark: **About: ** `/about: About Modest...`",
+        ":small_orange_diamond: **About: ** `/about: About Modest...`",
         "",
-        ":white_check_mark: **Growtopia: ** `/growtopia: Opens Growtopia Game commands page`"
+        ":small_orange_diamond: **Growtopia: ** `/growtopia: Opens Growtopia Game commands page`"
     ],
     "legendquest":[
-        ":woman_mage: **Legendary Title: ** `/ltitle: Shows Legendary Title Quests`",
+        ":orange_circle: **Legendary Title: ** `/ltitle: Shows Legendary Title Quests`",
         "",
-        ":woman_mage: **Dragon Of Legend: ** `/ldrag: Shows Dragon of Legend Quests`",
+        ":dragon: **Dragon Of Legend: ** `/ldrag: Shows Dragon of Legend Quests`",
         "",
-        ":woman_mage: **LegendBot-009: ** `/lbot: Shows LegendBot-009 Quests`",
+        ":robot: **LegendBot-009: ** `/lbot: Shows LegendBot-009 Quests`",
         "",
-        ":woman_mage: **Legendary Wings: ** `/lwings: Shows Legendary Wings Quests`",
+        ":money_with_wings: **Legendary Wings: ** `/lwings: Shows Legendary Wings Quests`",
         "",
-        ":woman_mage: **Legendary Katana: ** `/lkatana: Shows Legendary Katana Quests`",
+        ":dagger: **Legendary Katana: ** `/lkatana: Shows Legendary Katana Quests`",
         "",
-        ":woman_mage: **Whip of Truth: ** `/lwhip: Shows Whip of Truth Quests`",
+        ":star2: **Whip of Truth: ** `/lwhip: Shows Whip of Truth Quests`",
         "",
-        ":woman_mage: **Legendary Dragon Knight's Wings: ** `/lknight: Shows Legendary Dragon Knight's Wings Quests`"
+        ":drop_of_blood: **Legendary Dragon Knight's Wings: ** `/lknight: Shows Legendary Dragon Knight's Wings Quests`"
     ],
     "ltitle":[
         "**1.** Bring 2,000 Sand",
@@ -213,10 +213,6 @@
       "",
       "[Click Here](https://discord.com/oauth2/authorize?client_id=711074841394151464&scope=bot&permissions=8)"
     ]
-
-
     
-    
-     
 
 }

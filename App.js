@@ -48,7 +48,7 @@ const spamCheck = () => {
        break;
 
        case "help":
-         frame(":grey_question: **Commands**", config.help.join("\n"), "#000000"); 
+         frame(":scroll: **Commands**", config.help.join("\n"), "#DF8600"); 
        break;
 
        case "time":
@@ -62,7 +62,7 @@ const spamCheck = () => {
         break;
         
         case "slot":
-          let picks = [':cherries:', ':blueberries:', ':pineapple:', ':kiwi:'];
+          let picks = [':cherries:', ':banana:', ':pineapple:', ':kiwi:'];
           let won = (`\n<@${message.author.id}> ` + "**Won** at the slots! :partying_face:");
           let lost = (`\n<@${message.author.id}> ` + "Lost at the slots! :sob:");
           const num1 = picks[Math.floor(Math.random() * picks.length)];
@@ -81,52 +81,53 @@ const spamCheck = () => {
         break;
 
         case "rosh":
-          let kelimes = [':rock:', ':roll_of_paper:', ':scissors:'];
+          let kelimes = ['**Rock! **:rock:', '**Paper! **:roll_of_paper:', '**Scissors! **:scissors:'];
           let secler = kelimes[Math.floor(Math.random() * kelimes.length)];
-          let esonuc = (`<@${message.author.id}> **Used his skills and made this hand gesture:** ` + secler);
-          frame(":confetti_ball: **Roshambo Game**", esonuc, "#FF008B");
+          let esonuc = (`<@${message.author.id}> **made hand gesture and became...** `);
+          frame(":confetti_ball: **Roshambo Game**", esonuc, "#5BFF62");
+          frame("", secler, "#5BFF62");
         break;
 
         case "dice":
           let dicesayi = (Math.floor(Math.random() * (7 - 1) ) + 1);
-          let dices = (`<@${message.author.id}> **Rolled the dice and this number came:** ` + dicesayi);
+          let dices = (`<@${message.author.id}> **rolled the dice and this number came:** ` + dicesayi);
           frame(":game_die: **Dice**", dices, "#000000");
         break;
 
         case "legendquest":
-          frame(":first_place: **Legend Quests**", config.legendquest.join("\n"), "#000000");
+          frame("**Legend Quests**", config.legendquest.join("\n"), "#FF008B");
         break;
 
         case "ltitle":
-          frame(":angel: **Legendary Title Quests**", config.ltitle.join("\n"), "#000000");
+          frame(":orange_circle: **Legendary Title Quests**", config.ltitle.join("\n"), "#5BFF62");
         break;
 
         case "ldrag":
-          frame(":dragon: **Dragon of Legend Quests**", config.ldrag.join("\n"), "#000000");
+          frame(":dragon: **Dragon of Legend Quests**", config.ldrag.join("\n"), "#5BFF62");
         break;
 
         case "lbot":
-          frame(":robot: **Legendbot-009 Quests**", config.lbot.join("\n"), "#000000");
+          frame(":robot: **Legendbot-009 Quests**", config.lbot.join("\n"), "#5BFF62");
         break;
 
         case "lwings":
-          frame(":wind_blowing_face: **Legendary Wings Quests**", config.lwings.join("\n"), "#000000");
+          frame(":wind_blowing_face: **Legendary Wings Quests**", config.lwings.join("\n"), "#5BFF62");
         break;
 
         case "lkatana":
-          frame(":crossed_swords: **Legendary Katana Quests**", config.lkatana.join("\n"), "#000000");
+          frame(":crossed_swords: **Legendary Katana Quests**", config.lkatana.join("\n"), "#5BFF62");
         break;
 
         case "lwhip":
-          frame(":dizzy: **Whip of Truth Quests**", config.lwhip.join("\n"), "#000000");
+          frame(":dizzy: **Whip of Truth Quests**", config.lwhip.join("\n"), "#5BFF62");
         break;
 
         case "lknight":
-          frame(":maple_leaf: **Legendary Dragon Knight's Wings Quests**", config.lknight.join("\n"), "#000000");
+          frame(":maple_leaf: **Legendary Dragon Knight's Wings Quests**", config.lknight.join("\n"), "#5BFF62");
         break;
 
         case "growtopia":
-          frame(":deciduous_tree: **Growtopia Page**", config.growtopia.join("\n"), "#000000");
+          frame(":deciduous_tree: **Growtopia Page**", config.growtopia.join("\n"), "#5BFF62");
         break;
 
         case "games":
@@ -142,7 +143,7 @@ const spamCheck = () => {
           .setTitle(":registered: **About Modest**")         
           .setDescription(":white_small_square:"+config.about.join("\n:white_small_square:"))
           .setColor("#000000")
-          .setImage("https://i.pinimg.com/originals/83/e9/e4/83e9e43f354947bd6dd230068c60e158.jpg")
+          .setImage("https://media.giphy.com/media/Zdf5IzI6eYOQ4aNHs9/giphy.gif")
           message.channel.send(embed);
         break;
 
@@ -165,7 +166,6 @@ const spamCheck = () => {
         break;
 
 
-        
        default:
        break;
     }
