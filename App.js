@@ -92,8 +92,9 @@ const spamCheck = () => {
           let user = message.mentions.users.first();
           if (user) {
           const kisses = new Discord.MessageEmbed()
+          .setDescription("You kissed the <@" + user.id + ">!")
           .setImage("https://i.pinimg.com/originals/52/60/3e/52603e1ceb05f757af73ab69be05b5bc.gif")
-          message.channel.send("You kissed the <@" + user.id + ">!", kisses);
+          message.channel.send(kisses);
           } else { 
           message.channel.send("**Please tag someone!**")};
         break;
