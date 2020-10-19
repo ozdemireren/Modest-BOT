@@ -89,8 +89,13 @@ const spamCheck = () => {
         break;
             
         case "kiss":
-            let user = message.mentions.cache.first();
-            message.channel.send("<@" + user.id + ">'i öptün.");
+          let user = message.mentions.users.first();
+          if (user) {
+          const kisses = new Discord.MessageEmbed()
+          .setImage("https://i.pinimg.com/originals/52/60/3e/52603e1ceb05f757af73ab69be05b5bc.gif")
+          message.channel.send("You kissed the <@" + user.id + ">!", kisses);
+          } else { 
+          message.channel.send("**Please tag someone!**")};
         break;
 
         case "dice":
