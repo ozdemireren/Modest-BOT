@@ -212,7 +212,24 @@
         "**To invite Modest please click link on the below:**",
         "",
         "[Click Here](https://discord.com/oauth2/authorize?client_id=711074841394151464&scope=bot&permissions=8)"
-    ]
+    ],
+    "ders":[
+        ":small_orange_diamond: **Pazartesi**",
+        "[13:05] - Bitki Matertyali",
+        "",
+        ":small_orange_diamond: **Salı**",
+        "[10:20] - İş Sağlığı",
+        "[12:10] - İnkılap Tarihi",
+        "",
+        ":small_orange_diamond: **Çarşamba**",
+        "[11:15] - Çizim ve Grafik Anlatım",
+        "[15:50] - Matematik",
+        "",
+        ":small_orange_diamond: **Perşembe**",
+        "[10:20] - Yabancı Dil",
+        "[13:05] - Peyzaj Mimarlığına Giriş",
+        "[15:50] - Türk Dili"
+    ] 
     
 
 }

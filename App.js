@@ -87,17 +87,6 @@ const spamCheck = () => {
           frame(":confetti_ball: **Roshambo Game**", esonuc, "#5BFF62");
           frame("", secler, "#5BFF62");
         break;
-            
-        case "kiss":
-          let user = message.mentions.users.first();
-          if (user) {
-          const kisses = new Discord.MessageEmbed()
-          .setDescription("You kissed the <@" + user.id + ">!")
-          .setImage("https://i.pinimg.com/originals/52/60/3e/52603e1ceb05f757af73ab69be05b5bc.gif")
-          message.channel.send(kisses);
-          } else { 
-          message.channel.send("**Please tag someone!**")};
-        break;
 
         case "dice":
           let dicesayi = (Math.floor(Math.random() * (7 - 1) ) + 1);
@@ -176,8 +165,38 @@ const spamCheck = () => {
           frame(":e_mail: **Invite**", config.invite.join("\n"), "#000000");
         break;
 
+        case "dersprogrami":
+          const dersprogram = new Discord.MessageEmbed()
+          .setTitle(":books: Peyzaj Mimarlığı Ders Programı")
+          .setDescription(config.ders.join("\n"))
+          .setColor("#DF8600")
+          message.channel.send(dersprogram);
+        break;
 
-       default:
+        case "kiss":
+          let user = message.mentions.users.first();
+          if (user) {
+          const kisses = new Discord.MessageEmbed()
+          .setDescription("**You kissed the <@" + user.id + ">!**")
+          .setImage("https://i.pinimg.com/originals/52/60/3e/52603e1ceb05f757af73ab69be05b5bc.gif")
+          message.channel.send(kisses);
+          } else { 
+          message.channel.send("**Please tag someone!**")};
+        break;
+
+        case "kill":
+          let user2 = message.mentions.users.first();
+          if (user2) {
+          const kills = new Discord.MessageEmbed()
+          .setDescription("**You kill the <@" + user2.id + ">!**")
+          .setImage("https://i.kym-cdn.com/photos/images/newsfeed/001/890/995/e1c.gif")
+          message.channel.send(kills);
+          } else { 
+          message.channel.send("**Please tag someone!**")};
+        break;
+
+
+        default:
        break;
     }
 
