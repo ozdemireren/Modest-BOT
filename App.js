@@ -166,14 +166,6 @@ const spamCheck = () => {
           frame(":e_mail: **Invite**", config.invite.join("\n"), "#000000");
         break;
 
-        case "dersprogrami":
-          const dersprogram = new Discord.MessageEmbed()
-          .setTitle(":books: Peyzaj Mimarlığı Ders Programı")
-          .setDescription(config.ders.join("\n"))
-          .setColor("#DF8600")
-          message.channel.send(dersprogram);
-        break;
-
         case "kiss":
           let user = message.mentions.users.first();
           if (user) {
