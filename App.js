@@ -3,6 +3,7 @@ const bot = new Discord.Client();
 const config = require("./config.json");
 const spam = new Set();
 const userDb = require('./users.json');
+const {token} = require("./token.json");
 const prefix = "/";
 
 bot.on("ready", () => {
@@ -204,4 +205,4 @@ const spamCheck = () => {
  });
 
 
-bot.login(config.token);
+bot.login(token);
