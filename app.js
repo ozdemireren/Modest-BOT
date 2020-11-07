@@ -7,6 +7,10 @@ const {token} = require("./token.json");
 const prefix = "/";
 
 bot.on("ready", () => {
+    bot.user.setActivity({
+      name:"Type /help || linktr.ee/modestbot",
+      type:"PLAYING"
+    });
     console.log("Bot başlatıldı.");
 });
 
