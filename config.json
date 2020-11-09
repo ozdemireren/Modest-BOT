@@ -1,14 +1,14 @@
 {
     "help":[
-        ":small_orange_diamond: **Games: ** `/games: Opens Games page`",
+        ":small_orange_diamond: **Games **- /games: Opens Games page",
         "",
-        ":small_orange_diamond: **Tech: ** `/tech: Opens techical commands Page`",
+        ":small_orange_diamond: **Tech **- /tech: Opens techical commands Page",
         "",
-        ":small_orange_diamond: **Rules: ** `/rules: Opens rules page`",
+        ":small_orange_diamond: **Rules **- /rules: Opens rules page",
         "",
-        ":small_orange_diamond: **About: ** `/about: About Modest...`",
+        ":small_orange_diamond: **About **- /about: About Modest...",
         "",
-        ":small_orange_diamond: **Growtopia: ** `/growtopia: Opens Growtopia Game commands page`"
+        ":small_orange_diamond: **Growtopia **- /growtopia: Opens Growtopia Game commands page"
     ],
     "legendquest":[
         ":orange_circle: **Legendary Title: ** `/ltitle: Shows Legendary Title Quests`",
@@ -183,13 +183,13 @@
         ":woman_mage: **Legendary Quests: ** `/legendquest: Shows Legendary Quests`"
     ],
     "games":[
-        ":green_circle: **/spin:** Allows you to spin the roulette",
+        ":green_circle: **/spin **- Allows you to spin the roulette",
         "",
-        ":green_circle: **/slot:** Allows you to spin the slot machine",
+        ":green_circle: **/slot **- Allows you to spin the slot machine",
         "",
-        ":green_circle: **/rosh:** Allows you to play roshambo game",
+        ":green_circle: **/rosh **- Allows you to play roshambo game",
         "",
-        ":green_circle: **/dice:** Allows you to roll the dice"
+        ":green_circle: **/dice **- Allows you to roll the dice"
     ],
     "tech":[
         "**/time:** Shows date and time",
