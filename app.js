@@ -136,7 +136,7 @@ const spamCheck = () => {
         break;
 
         case "games":
-          frame(":video_game: **Games Page**", config.games.join("\n"), "#000000");
+          frame(":four_leaf_clover: **Games Page**", config.games.join("\n"), "#5BFF62");
         break;
 
         case "tech":

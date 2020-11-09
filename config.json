@@ -183,10 +183,13 @@
         ":woman_mage: **Legendary Quests: ** `/legendquest: Shows Legendary Quests`"
     ],
     "games":[
-        "**/spin:** Allows you to spin the roulette",
-        "**/slot:** Allows you to spin the slot machine",
-        "**/rosh:** Allows you to play roshambo game",
-        "**/dice:** Allows you to roll the dice"
+        ":green_circle: **/spin:** Allows you to spin the roulette",
+        "",
+        ":green_circle: **/slot:** Allows you to spin the slot machine",
+        "",
+        ":green_circle: **/rosh:** Allows you to play roshambo game",
+        "",
+        ":green_circle: **/dice:** Allows you to roll the dice"
     ],
     "tech":[
         "**/time:** Shows date and time",
