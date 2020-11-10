@@ -1,29 +1,32 @@
 {
     "help":[
-        ":small_orange_diamond: **Games **- /games: Opens Games page",
+        ":white_small_square: **Games**",
         "",
-        ":small_orange_diamond: **Tech **- /tech: Opens techical commands Page",
+        ":small_blue_diamond: **/spin** - Allows you to spin the roulette",
+        ":small_blue_diamond: **/slot** - Allows you to spin the slot machine",
+        ":small_blue_diamond: **/rosh** - Allows you to play roshambo game",
+        ":small_blue_diamond: **/dice** - Allows you to roll the dice",
         "",
-        ":small_orange_diamond: **Rules **- /rules: Opens rules page",
+        ":white_small_square: **Tech**",
         "",
-        ":small_orange_diamond: **About **- /about: About Modest...",
+        ":small_blue_diamond: **/time** - Shows date and time",
+        ":small_blue_diamond: **/invite** - Invite Modest into your server",
+        ":small_blue_diamond: **/balance** - Shows your balance (Not ready, soon...)",
+        ":small_blue_diamond: **/rules** - Opens rules page",
+        ":small_blue_diamond: **/about** - About Modest...",
         "",
-        ":small_orange_diamond: **Growtopia **- /growtopia: Opens Growtopia Game commands page"
+        ":white_small_square: **Growtopia**",
+        "",
+        ":small_blue_diamond: **/legendquest** - Shows Legendary Quests"
     ],
     "legendquest":[
-        ":orange_circle: **Legendary Title: ** `/ltitle: Shows Legendary Title Quests`",
-        "",
-        ":dragon: **Dragon Of Legend: ** `/ldrag: Shows Dragon of Legend Quests`",
-        "",
-        ":robot: **LegendBot-009: ** `/lbot: Shows LegendBot-009 Quests`",
-        "",
-        ":money_with_wings: **Legendary Wings: ** `/lwings: Shows Legendary Wings Quests`",
-        "",
-        ":dagger: **Legendary Katana: ** `/lkatana: Shows Legendary Katana Quests`",
-        "",
-        ":star2: **Whip of Truth: ** `/lwhip: Shows Whip of Truth Quests`",
-        "",
-        ":drop_of_blood: **Legendary Dragon Knight's Wings: ** `/lknight: Shows Legendary Dragon Knight's Wings Quests`"
+        ":white_small_square: **/ltitle** - Shows ***Legendary Title*** Quests",
+        ":white_small_square: **/ldrag** - Shows ***Dragon of Legend*** Quests",
+        ":white_small_square: **/lbot** - Shows ***LegendBot-009*** Quests",
+        ":white_small_square: **/lwings** - Shows ***Legendary Wings*** Quests",
+        ":white_small_square: **/lkatana** - Shows ***Legendary Katana*** Quests",
+        ":white_small_square: **/lwhip** - Shows ***Whip of Truth*** Quests",
+        ":white_small_square: **/lknight** - Shows ***Legendary Dragon Knight's Wings*** Quests"
     ],
     "ltitle":[
         "**1.** Bring 2,000 Sand",
@@ -178,23 +181,6 @@
         "**18.** Deliver 1 Draconic Wings",
         "**19.** Deliver 10 Dragon Knight's Chestplate",
         "**20.** Deliver 1 Legendary Orb"
-    ],
-    "growtopia":[
-        ":woman_mage: **Legendary Quests: ** `/legendquest: Shows Legendary Quests`"
-    ],
-    "games":[
-        ":green_circle: **/spin **- Allows you to spin the roulette",
-        "",
-        ":green_circle: **/slot **- Allows you to spin the slot machine",
-        "",
-        ":green_circle: **/rosh **- Allows you to play roshambo game",
-        "",
-        ":green_circle: **/dice **- Allows you to roll the dice"
-    ],
-    "tech":[
-        "**/time:** Shows date and time",
-        "**/invite:** Invite Modest into your server",
-        "**/balance:** Shows your balance (Not ready, soon...)"
     ],
     "about":[
         "Modest was created by Eren",

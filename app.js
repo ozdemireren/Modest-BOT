@@ -53,7 +53,7 @@ const spamCheck = () => {
        break;
 
        case "help":
-         frame(":scroll: **Commands**", config.help.join("\n"), "#DF8600"); 
+         frame(":arrow_forward: **Commands**", config.help.join("\n"), "#1771F1"); 
        break;
 
        case "time":
@@ -63,7 +63,7 @@ const spamCheck = () => {
 
         case "spin":
           let rulet = (`<@${message.author.id}> ` + "**Spun at the wheel and got number** " + Math.floor(Math.random() * 37)); //
-          frame(":white_circle: **Roulette Wheel**", rulet, "#000000");
+          frame(":red_circle: **Roulette Wheel**", rulet, "#FF0000");
         break;
         
         case "slot":
@@ -95,52 +95,40 @@ const spamCheck = () => {
 
         case "dice":
           let dicesayi = (Math.floor(Math.random() * (7 - 1) ) + 1);
-          let dices = (`<@${message.author.id}> **rolled the dice and this number came:** ` + dicesayi);
-          frame(":game_die: **Dice**", dices, "#000000");
+          let dices = (`<@${message.author.id}> **Rolled the dice and this number came:** ` + dicesayi);
+          frame(":game_die: **Dice**", dices, "#FF0000");
         break;
 
         case "legendquest":
-          frame("**Legend Quests**", config.legendquest.join("\n"), "#FF008B");
+          frame(":four_leaf_clover: **Legend Quests**", config.legendquest.join("\n"), "#5BFF62");
         break;
 
         case "ltitle":
-          frame(":orange_circle: **Legendary Title Quests**", config.ltitle.join("\n"), "#5BFF62");
+          frame(":green_book: **Legendary Title Quests**", config.ltitle.join("\n"), "#5BFF62");
         break;
 
         case "ldrag":
-          frame(":dragon: **Dragon of Legend Quests**", config.ldrag.join("\n"), "#5BFF62");
+          frame(":green_book: **Dragon of Legend Quests**", config.ldrag.join("\n"), "#5BFF62");
         break;
 
         case "lbot":
-          frame(":robot: **Legendbot-009 Quests**", config.lbot.join("\n"), "#5BFF62");
+          frame(":green_book: **Legendbot-009 Quests**", config.lbot.join("\n"), "#5BFF62");
         break;
 
         case "lwings":
-          frame(":wind_blowing_face: **Legendary Wings Quests**", config.lwings.join("\n"), "#5BFF62");
+          frame(":green_book: **Legendary Wings Quests**", config.lwings.join("\n"), "#5BFF62");
         break;
 
         case "lkatana":
-          frame(":crossed_swords: **Legendary Katana Quests**", config.lkatana.join("\n"), "#5BFF62");
+          frame(":green_book: **Legendary Katana Quests**", config.lkatana.join("\n"), "#5BFF62");
         break;
 
         case "lwhip":
-          frame(":dizzy: **Whip of Truth Quests**", config.lwhip.join("\n"), "#5BFF62");
+          frame(":green_book: **Whip of Truth Quests**", config.lwhip.join("\n"), "#5BFF62");
         break;
 
         case "lknight":
-          frame(":maple_leaf: **Legendary Dragon Knight's Wings Quests**", config.lknight.join("\n"), "#5BFF62");
-        break;
-
-        case "growtopia":
-          frame(":deciduous_tree: **Growtopia Page**", config.growtopia.join("\n"), "#5BFF62");
-        break;
-
-        case "games":
-          frame(":four_leaf_clover: **Games Page**", config.games.join("\n"), "#5BFF62");
-        break;
-
-        case "tech":
-          frame(":wrench: **Technical Page**", config.tech.join("\n"), "#000000");
+          frame(":green_book: **Legendary Dragon Knight's Wings Quests**", config.lknight.join("\n"), "#5BFF62");
         break;
 
         case "about":         
@@ -148,22 +136,12 @@ const spamCheck = () => {
           .setTitle(":registered: **About Modest**")         
           .setDescription(":white_small_square:"+config.about.join("\n:white_small_square:"))
           .setColor("#000000")
-          .setImage("https://media.giphy.com/media/Zdf5IzI6eYOQ4aNHs9/giphy.gif")
+          .setImage()
           message.channel.send(embed);
         break;
 
         case "rules":
           frame(":grey_exclamation: **Rules**", config.rules.join("\n"), "#000000");
-        break;
-
-        case "oli6":
-          let oli = ("`Zaccs'den bir mesajınız var!`");
-          const olimpos6 = new Discord.MessageEmbed()
-          .setTitle(":hearts: Olimpos 6")
-          .setDescription(oli)
-          .setColor("#000000")
-          .setImage("https://cdn.discordapp.com/attachments/757660777820979372/758832848542892052/unknown.png")
-          message.channel.send(olimpos6);
         break;
 
         case "invite":
