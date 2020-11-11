@@ -163,7 +163,7 @@ const spamCheck = () => {
           let user2 = message.mentions.users.first();
           if (user2) {
           const kills = new Discord.MessageEmbed()
-          .setDescription("**You kill the <@" + user2.id + ">!**")
+          .setDescription("**You killed the <@" + user2.id + ">!**")
           .setImage("https://i.kym-cdn.com/photos/images/newsfeed/001/890/995/e1c.gif")
           message.channel.send(kills);
           } else { 
