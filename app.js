@@ -170,6 +170,33 @@ const spamCheck = () => {
           message.channel.send("**Please tag someone!**")};
         break;
 
+        case "serverinfo":
+          (message.content === `${prefix}server`)
+          const server = new Discord.MessageEmbed()
+          .setTitle(":e_mail: ***Server Info***")
+          .setColor("#000000")
+          .setDescription(`**Server name:**   ${message.guild.name}\n**Total members:**   ${message.guild.memberCount}`);
+          message.channel.send(server);
+        break;
+
+        case "profileinfo":
+          let profile = message.mentions.users.first() ? message.mentions.users.first() : message.author;
+          const profile1 = new Discord.MessageEmbed()
+          .setTitle(":scroll: ***" + profile.username + "'s Profile***")
+          .setColor("#000000")
+          .setDescription(`**Username:  **` + profile.username + `\n` + `**ID:  **   ${profile.id}`)  
+          message.channel.send(profile1);          
+        break;
+        
+        case "memory":
+          const used = process.memoryUsage().heapUsed / 1024 / 1024;
+          message.channel.send(`Current memory usage ${Math.round(used * 100) / 100} MB`);
+        break;
+        
+        case "say":            
+          const content = args[0] ? args.join(" ") : "***Tip:***\n/say Something."
+          message.channel.send(content);
+        break;
 
         default:
        break;
