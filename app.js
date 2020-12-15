@@ -183,8 +183,11 @@ const spamCheck = () => {
           let profile = message.mentions.users.first() ? message.mentions.users.first() : message.author;
           const profile1 = new Discord.MessageEmbed()
           .setTitle(":scroll: ***" + profile.username + "'s Profile***")
-          .setColor("#000000")
-          .setDescription(`**Username:  **` + profile.username + `\n` + `**ID:  **   ${profile.id}`)  
+          .setColor("#FFC46B")
+          .setDescription(`:small_orange_diamond: **Username:  **` + profile.username + `\n` +
+          `:small_orange_diamond: **ID:  **` + profile.id + `\n` +
+          `:small_orange_diamond: **Tag:  **` + profile.discriminator + `\n` +
+          `:small_orange_diamond: **Create date:  **` + profile.createdAt)  
           message.channel.send(profile1);          
         break;
         
