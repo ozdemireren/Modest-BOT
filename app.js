@@ -185,9 +185,9 @@ const spamCheck = () => {
           .setTitle(":scroll: ***" + profile.username + "'s Profile***")
           .setColor("#FFC46B")
           .setDescription(`:small_orange_diamond: **Username:  **` + profile.username + `\n` +
-          `:small_orange_diamond: **ID:  **` + profile.id + `\n` +
           `:small_orange_diamond: **Tag:  **` + profile.discriminator + `\n` +
-          `:small_orange_diamond: **Create date:  **` + profile.createdAt)  
+          `:small_orange_diamond: **ID:  **` + profile.id + `\n` + `\n` +
+          `**Create date:  **` + profile.createdAt)  
           message.channel.send(profile1);          
         break;
         
