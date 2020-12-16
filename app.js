@@ -178,7 +178,7 @@ const spamCheck = () => {
           .setDescription(`:small_red_triangle: **Server name:  **` + message.guild.name + `\n` +
           `:small_red_triangle: **Total members:  **` + message.guild.memberCount + `\n` +
           `:small_red_triangle: **Server Region:  **` + message.guild.region + `\n` + `\n` + 
-          `:small_red_triangle: **Create Date:  **` + message.guild.createdAt + `\n`);
+          `**Create Date:  **` + message.guild.createdAt + `\n`);
           message.channel.send(server);
         break;
 
