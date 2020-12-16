@@ -173,9 +173,12 @@ const spamCheck = () => {
         case "serverinfo":
           (message.content === `${prefix}server`)
           const server = new Discord.MessageEmbed()
-          .setTitle(":e_mail: ***Server Info***")
-          .setColor("#000000")
-          .setDescription(`**Server name:**   ${message.guild.name}\n**Total members:**   ${message.guild.memberCount}`);
+          .setTitle(":red_envelope: ***Server Info***")
+          .setColor("#FF0000")
+          .setDescription(`:small_red_triangle: **Server name:  **` + message.guild.name + `\n` +
+          `:small_red_triangle: **Total members:  **` + message.guild.memberCount + `\n` +
+          `:small_red_triangle: **Server Region:  **` + message.guild.region + `\n` + `\n` + 
+          `:small_red_triangle: **Create Date:  **` + message.guild.createdAt + `\n`);
           message.channel.send(server);
         break;
 
