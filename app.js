@@ -204,6 +204,22 @@ const spamCheck = () => {
           message.channel.send(content);
         break;
 
+        case "pp":
+          let embed3 = new Discord.MessageEmbed();
+          if (!message.mentions.users.first()) {
+            embed3.setColor("00ff00");
+            embed3.setFooter("Your avatar!");
+            embed3.setImage(message.author.displayAvatarURL() + "?size=2048");
+            message.channel.send(embed3);
+          } else {
+            let user = message.mentions.users.first();
+            embed3.setFooter(`${user.username}'s avatar!`);
+            embed3.setImage(message.mentions.users.first().displayAvatarURL() + "?size=2048");
+            embed3.setColor("#00ff00");
+            message.channel.send(embed3);
+          }
+        break;
+
         default:
        break;
     }
