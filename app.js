@@ -204,7 +204,7 @@ const spamCheck = () => {
           message.channel.send(content);
         break;
 
-        case "pp":
+        case "pfp":
           let embed3 = new Discord.MessageEmbed();
           if (!message.mentions.users.first()) {
             embed3.setColor("00ff00");
@@ -218,6 +218,16 @@ const spamCheck = () => {
             embed3.setColor("#00ff00");
             message.channel.send(embed3);
           }
+        break;
+
+        case "info":
+          let embed4 = new Discord.MessageEmbed()
+          .setTitle(":white_check_mark: ***Modest's Info***")
+          .setColor("5BFF62")
+          .setDescription("Bot is running! ✅\nBot is running with **"+bot.users.cache.size+
+          "** users, in  **"+bot.channels.cache.size+"** channels of **"+bot.guilds.cache.size+
+          "** guilds! 👍");
+        message.channel.send(embed4);
         break;
 
         default:
