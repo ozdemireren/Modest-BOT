@@ -3,7 +3,7 @@ const bot = new Discord.Client();
 const config = require("./config.json");
 const spam = new Set();
 const userDb = require('./users.json');
-const {token} = require("./tkn.json");
+const {token} = process.env.OS == 'Windows_NT' ? require("./tkn.json") : "";
 const prefix = "/";
 
 bot.on("ready", () => {
