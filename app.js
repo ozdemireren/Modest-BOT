@@ -3,7 +3,7 @@ const bot = new Discord.Client();
 const config = require("./config.json");
 const spam = new Set();
 const userDb = require('./users.json');
-const {token} = require("./tkn.json");
+const {token} = require("./token.json");
 const prefix = "/";
 
 bot.on("ready", () => {
@@ -11,7 +11,7 @@ bot.on("ready", () => {
       name:"Merry Christmas! || Type /help || linktr.ee/modestbot",
       type:"PLAYING"
     });
-    console.log("Bot başlatıldı.");
+    console.log("Bot Başlatıldı");
 });
 
 bot.on("message", (message) => {
@@ -238,4 +238,4 @@ const spamCheck = () => {
  });
 
 
-bot.login(process.env.WEB_CONCURRENCY ? proccess.env.MODEST_BOT : token);
+bot.login(token);
