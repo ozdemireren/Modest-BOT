@@ -7,7 +7,6 @@ const {token} = process.env.OS == 'Windows_NT' ? require("./tkn.json") : "";
 const prefix = "/";
 
 bot.on("ready", () => {
-    bot.user.setAvatar("https://t4.ftcdn.net/jpg/03/75/38/73/360_F_375387396_wSJM4Zm0kIRoG7Ej8rmkXot9gN69H4u4.jpg");
     bot.user.setActivity({
       name:"Type /help || linktr.ee/modestbot",
       type:"PLAYING"
@@ -170,6 +169,20 @@ const spamCheck = () => {
           message.channel.send(kills);
           } else { 
           message.channel.send("**Please tag someone!**")};
+        break;
+
+        case "dance":
+          let user3 = message.mentions.users.first();
+          if (user3) {
+          const dances = new Discord.MessageEmbed()
+          .setDescription("**You are dancing with <@" + user3.id + ">!**")
+          .setImage("https://i.gifer.com/1kR8.gif")
+          message.channel.send(dances);
+          } else {
+            const dances2 = new Discord.MessageEmbed()
+            .setDescription("**You are dancing!**\n\nTip: Tag someone to dance with!")
+            .setImage("https://media.tenor.com/images/73cca45a93f91944b2c9fdd4b05c3c53/tenor.gif")
+          message.channel.send(dances2)};
         break;
 
         case "serverinfo":
