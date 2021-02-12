@@ -197,7 +197,7 @@ const spamCheck = () => {
           message.channel.send(server);
         break;
 
-        case "profileinfo":
+        case "playerinfo":
           let profile = message.mentions.users.first() ? message.mentions.users.first() : message.author;
           const profile1 = new Discord.MessageEmbed()
           .setTitle(":scroll: ***" + profile.username + "'s Profile***")
