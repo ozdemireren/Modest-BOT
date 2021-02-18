@@ -102,10 +102,16 @@ const spamCheck = () => {
 
         case "about":         
           const embed = new Discord.MessageEmbed()
-          .setTitle(":registered: **About Modest**")         
-          .setDescription(":white_small_square:"+config.about.join("\n:white_small_square:"))
-          .setColor("#000000")
+          .setTitle("**About Modest** :question:") 
+          .setDescription(":link: **Short Links:** https://linktr.ee/modestbot" + "\n" +
+          ":woman_tipping_hand: **Support Server:** https://discord.gg/hFV4Na4BfY" + "\n" +
+          ":man_technologist: **Developer:** " + "`" + "Scylla#1665" + "`" + "\n" +
+          ":pencil: **Prefix:** " + "`" + prefix + "`" + "\n" +
+          ":page_facing_up: **Servers:** " + "`" + bot.guilds.cache.size + "`" + "\n" +
+          ":gear: **Latency:** " + "`" + bot.ws.ping + "ms" + "`")
+          .setColor("#EF2FA2")
           .setImage()
+          .setFooter("Time: " + new Date());
           message.channel.send(embed);
         break;
 
