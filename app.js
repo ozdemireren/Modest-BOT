@@ -100,38 +100,6 @@ const spamCheck = () => {
           frame(":game_die: **Dice**", dices, "#FF0000");
         break;
 
-        case "legendquest":
-          frame(":four_leaf_clover: **Legend Quests**", config.legendquest.join("\n"), "#5BFF62");
-        break;
-
-        case "ltitle":
-          frame(":green_book: **Legendary Title Quests**", config.ltitle.join("\n"), "#5BFF62");
-        break;
-
-        case "ldrag":
-          frame(":green_book: **Dragon of Legend Quests**", config.ldrag.join("\n"), "#5BFF62");
-        break;
-
-        case "lbot":
-          frame(":green_book: **Legendbot-009 Quests**", config.lbot.join("\n"), "#5BFF62");
-        break;
-
-        case "lwings":
-          frame(":green_book: **Legendary Wings Quests**", config.lwings.join("\n"), "#5BFF62");
-        break;
-
-        case "lkatana":
-          frame(":green_book: **Legendary Katana Quests**", config.lkatana.join("\n"), "#5BFF62");
-        break;
-
-        case "lwhip":
-          frame(":green_book: **Whip of Truth Quests**", config.lwhip.join("\n"), "#5BFF62");
-        break;
-
-        case "lknight":
-          frame(":green_book: **Legendary Dragon Knight's Wings Quests**", config.lknight.join("\n"), "#5BFF62");
-        break;
-
         case "about":         
           const embed = new Discord.MessageEmbed()
           .setTitle(":registered: **About Modest**")         
@@ -153,6 +121,7 @@ const spamCheck = () => {
           let user = message.mentions.users.first();
           if (user) {
           const kisses = new Discord.MessageEmbed()
+          .setTitle("***Kiss*** :exclamation: ")
           .setDescription("**You kissed the <@" + user.id + ">!**")
           .setImage("https://i.pinimg.com/originals/52/60/3e/52603e1ceb05f757af73ab69be05b5bc.gif")
           message.channel.send(kisses);
@@ -164,6 +133,7 @@ const spamCheck = () => {
           let user2 = message.mentions.users.first();
           if (user2) {
           const kills = new Discord.MessageEmbed()
+          .setTitle("***Kill*** :exclamation: ")
           .setDescription("**You killed the <@" + user2.id + ">!**")
           .setImage("https://i.kym-cdn.com/photos/images/newsfeed/001/890/995/e1c.gif")
           message.channel.send(kills);
@@ -175,14 +145,40 @@ const spamCheck = () => {
           let user3 = message.mentions.users.first();
           if (user3) {
           const dances = new Discord.MessageEmbed()
+          .setTitle("***Dance*** :exclamation: ")
           .setDescription("**You are dancing with <@" + user3.id + ">!**")
           .setImage("https://i.gifer.com/1kR8.gif")
           message.channel.send(dances);
           } else {
             const dances2 = new Discord.MessageEmbed()
+            .setTitle("***Dance*** :exclamation: ")
             .setDescription("**You are dancing!**\n\nTip: Tag someone to dance with!")
             .setImage("https://media.tenor.com/images/73cca45a93f91944b2c9fdd4b05c3c53/tenor.gif")
           message.channel.send(dances2)};
+        break;
+
+        case "facepalm":
+          let user4 = message.mentions.users.first();
+          if (user4) {
+          message.channel.send("**You can't tag anyone on this emote!**");
+          } else { 
+            const facepalms = new Discord.MessageEmbed()
+            .setTitle("***Facepalm*** :exclamation: ")
+            .setDescription("**You are covering your head with your hand!**")
+            .setImage("https://i.gifer.com/13Qe.gif")
+            message.channel.send(facepalms)};
+        break;
+
+        case "cry":
+          let user5 = message.mentions.users.first();
+          if (user5) {
+          message.channel.send("**You can't tag anyone on this emote!**");
+          } else { 
+            const crying = new Discord.MessageEmbed()
+            .setTitle("***Cry*** :exclamation: ")
+            .setDescription("**You are crying!**")
+            .setImage("https://media.tenor.com/images/2cb406e7619b591b7f7ca89b51989f57/tenor.gif")
+            message.channel.send(crying)};
         break;
 
         case "serverinfo":
