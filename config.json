@@ -19,6 +19,7 @@
         ":small_blue_diamond: **/memory** - Shows how much memory bot use",
         ":small_blue_diamond: **/say** - Allows bot to repeat whatever you say",
         ":small_blue_diamond: **/pfp** - Shows Person's avatars",
+        ":small_blue_diamond: **/ping** - Shows your ping",
         "",
         ":white_small_square: **Emotes**",
         "",

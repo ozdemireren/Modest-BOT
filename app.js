@@ -246,6 +246,17 @@ const spamCheck = () => {
         message.channel.send(embed4);
         break;
 
+        case "ping":            
+           message.channel.send("Pinging...").then(m =>{       
+           var ping = m.createdTimestamp - message.createdTimestamp;                  
+           var embed5 = new Discord.MessageEmbed()
+           .setAuthor(`Your ping is ${ping} ✅`)
+           .setColor("#41B619")    
+           .setFooter("linktr.ee/modestbot")         
+           m.edit(embed5)                  
+          });         
+        break;
+
         default:
        break;
     }
