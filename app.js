@@ -4,11 +4,11 @@ const config = require("./config.json");
 const spam = new Set();
 const userDb = require('./users.json');
 const {token} = process.env.OS == 'Windows_NT' ? require("./tkn.json") : "";
-const prefix = "/";
+const prefix = "m";
 
 bot.on("ready", () => {
     bot.user.setActivity({
-      name:"Type /help || linktr.ee/modestbot",
+      name:"Type mhelp || linktr.ee/modestbot",
       type:"PLAYING"
     });
     
