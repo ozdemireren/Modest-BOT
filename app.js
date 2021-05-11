@@ -9,7 +9,7 @@ const prefix = "m";
 bot.on("ready", () => {
     bot.user.setActivity({
       name:"Type mhelp || linktr.ee/modestbot",
-      type:"STREAMING"
+      type:"PLAYING"
     });
     
     console.log("Bot Başlatıldı");
