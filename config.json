@@ -15,7 +15,7 @@
         ":small_blue_diamond: **/rules** - Opens rules page",
         ":small_blue_diamond: **/about** - About Modest...",
         ":small_blue_diamond: **/serverinfo** - Shows server info",
-        ":small_blue_diamond: **/profileinfo** - Shows Person's profiles",
+        ":small_blue_diamond: **/playerinfo** - Shows Person's profiles",
         ":small_blue_diamond: **/memory** - Shows how much memory bot use",
         ":small_blue_diamond: **/say** - Allows bot to repeat whatever you say",
         ":small_blue_diamond: **/pfp** - Shows Person's avatars",
@@ -26,7 +26,7 @@
         ":small_blue_diamond: **/kiss** - Kiss emote",
         ":small_blue_diamond: **/kill** - Kill emote",
         ":small_blue_diamond: **/dance** - Dance emote",
-        ":small_blue_diamond: **/facepalm** - Kiss Emote",
+        ":small_blue_diamond: **/facepalm** - Facepalm Emote",
         ":small_blue_diamond: **/cry** - Cry Emote"
     ],
     "about":[
